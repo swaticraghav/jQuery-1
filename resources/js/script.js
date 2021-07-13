@@ -21,7 +21,7 @@ $(document).ready(function() {
     
     /* Smooth Scroll on button click */
     $('.js--scroll-button').click(function(){
-        $('html, body').animate({scrollTop: $('.js--section-four').offset().top}, 1000)
+        $('html, body').animate({scrollTop: $('.js--section-four').offset().top}, 3000);
     });
     
     
@@ -80,8 +80,9 @@ $(document).ready(function() {
     /* Animations on Scroll - Using waypoint*/
     $('.js--wp-1').waypoint(function(direction) {
         $('.js--wp-1').addClass('animate__animated animate__fadeIn');
+        $('.js--wp-3').addClass('animate__animated animate__bounce').css('background-color', '#7df2f7');
     }, {
-        offset: '50%;'
+        offset: '100%;'
     });
     
     /* Navigation Animation */
