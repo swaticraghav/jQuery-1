@@ -1,0 +1,29 @@
+@media only screen and (max-width: 767px) {
+    
+    html, 
+    header {
+        width: 100%;
+        overflow-x: hidden;
+    }
+    
+    .mobile-nav-icon {
+        display: inline-block;
+    }
+    
+    .right-nav {
+        background-color: black;
+        width: 30%;
+        float: left;
+        text-align: left;
+        position: fixed;
+        top: 85px;
+    }
+    
+    .right-nav a {
+        text-align: left;
+        color: white;
+        display: block;
+        width: 100%;
+    }
+    
+}

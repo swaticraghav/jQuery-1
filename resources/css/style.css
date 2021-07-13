@@ -1,0 +1,186 @@
+/* ------------------------------------------------------- */
+/* Basic Setup */
+/* ------------------------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+/* ------------------------------------------------------- */
+/* Renewable Elements */
+/* ------------------------------------------------------- */
+
+p, ul { 
+  margin: 0 0 1rem 0; 
+}
+
+h1 {
+    margin: 40px;
+    text-align: center;
+}
+
+.btn {
+    text-decoration: none;
+}
+
+/* ------------------------------------------------------- */
+/* Navigation */
+/* ------------------------------------------------------- */
+
+header {
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
+nav {
+    font-size: 15px;
+    padding-bottom: 5px;
+    width: 100%;
+}
+
+nav > a {
+    letter-spacing: 5px;
+}
+
+nav a {
+    display: block;
+    float: left;
+    text-decoration: none;
+    color: black;
+    padding: 16px;
+}
+
+.right-nav {
+    float: right;
+}
+
+.nav-icons {
+    font-size: 15px;
+    font-weight: 400;
+    
+    /* secrets to align text and icon */
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -5px;
+}
+
+/* Mobile navigation */
+
+.mobile-nav-icon {
+    float: right;
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-nav-icon i {
+    font-size: 50px;
+}
+
+
+
+/* ------------------------------------------------------- */
+/* Background color change on click */
+/* ------------------------------------------------------- */
+
+.section-color-change p {
+    margin: 40px;
+    padding: 20px;
+    border: 2px solid blue;
+    background-color: deepskyblue;
+}
+
+/* ------------------------------------------------------- */
+/* Sticky H2 */
+/* ------------------------------------------------------- */
+
+.section-color-change h2 {
+    background-color: yellow;
+    margin-bottom: 50px;
+    padding: 20px;
+    text-align: center;
+}
+
+.section-color-change .sticky {
+    background-color: burlywood;
+    font-size: 80%;
+    position: fixed;
+    top: 0;
+    -webkit-box-shadow: 0 2px 2px black;
+    box-shadow: 0 2px 2px black;
+}
+
+/* ------------------------------------------------------- */
+/* Scroll on button  click */
+/* ------------------------------------------------------- */
+
+.button-container {
+    margin: 50px;
+}
+
+.btn-scroll {
+    text-align: center;
+    border: 3px solid purple;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.image-div {
+    text-align: center;
+}
+
+#page-wrap { 
+  max-width: 500px; 
+  margin: 1rem auto;
+  padding: 1rem;
+}
+
+/* ------------------------------------------------------- */
+/* Animation */
+/* ------------------------------------------------------- */
+
+.section-animation {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.image-div img {
+    margin: 30px auto;
+    text-align: center;
+    width: 400px;
+    height: auto;
+}
+
+.js--wp-1 {
+    opacity: 0;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+}
+
+.js--wp-1.animate__animated {
+    opacity: 1;
+}
+
+.js--wp-2,
+.js--wp-3 {
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+}
+
+
+
